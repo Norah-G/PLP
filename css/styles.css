@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff66b2;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #ff99cc;
+    padding: 0.5em;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffd9eb;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #ff66b2;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+li::before {
+    content: "\2022";
+    color: #ff66b2;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+}
