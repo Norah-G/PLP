@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f5ff; /* Light blue background */
+}
+
+header, nav, main {
+  padding: 20px;
+  background-color: #6495ed; /* Cornflower blue */
+  color: white; /* White text on blue background */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white; /* White links on blue background */
+}
+
+main {
+  text-align: center;
+}
+
+main img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+/* Hover effect for links */
+nav ul li a:hover {
+  text-decoration: underline;
+}
